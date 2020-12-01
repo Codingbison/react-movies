@@ -1,3 +1,9 @@
+This project was built with React framework, movie database API, and firebase database to save likes and dislikes for movies. I have used React for the front end, and firebase realtime database for the backend. When the movie page is downloaded, it will check whether the movie exist in firebase database or not. If it does not exist in firebase database, it create a new reference in database with likes and dislikes set to 0. Then if we click like or dislike, it will update counter accordingly.
+To start the project, run the below commands inside VScode:
+1- npm i,
+2- npm install,
+3- npm start.
+For more info about creating React projects please read below, and follow carefully. Happy Coding:)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
